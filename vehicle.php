@@ -25,7 +25,7 @@ require_once("abstract_vehicle.php");
         <li>VIN: <?=$this->VIN?></li>
         </ul>
 <?php
-    return ob_get_clean();
+        return ob_get_clean();
     }
   }
 
